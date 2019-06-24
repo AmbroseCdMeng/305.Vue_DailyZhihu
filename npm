@@ -1,0 +1,45 @@
+npm i -D webpack
+npm i -D webpack-cli
+npm i -D webpack-dev-server
+npm i -D webpack-merge
+
+npm i -D request        使用基于 nodejs 的 request 库来做代理
+
+npm i -D axios          使用 axios 来做异步请求。官方还提供了 vue-resource，但不再维护
+
+
+npm i -D css-loader
+npm i -D style-loader
+
+npm i -D vue
+npm i -D vue-router
+npm i -D vue-loader
+npm i -D vue-style-loader
+
+npm i -D vue-template-complier
+npm i -D vue-hot-reload-api
+npm i -D babel
+npm i -D babel-loader@7.1.4
+npm i -D babel-core
+npm i -D babel-plugin-transform-runtime
+npm i -D babel-preset-es2015
+npm i -D babel-runtime
+
+npm i -D extract-text-webpack-plugin             webpack 3.0 
+npm i -D extract-text-webpack-plugin@next        webpack 4.0 + 
+npm i -D vue-template-compiler
+
+
+npm i -D file-loader
+npm i -D html-webpack-plugin
+npm i -D url-loader
+
+
+
+/******************** project start ********************/
+npm install         安装依赖
+node proxy.js       运行代理
+npm run dev         运行项目
+
+
+
